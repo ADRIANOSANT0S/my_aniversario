@@ -4,11 +4,12 @@
     padding: 16px 24px;
     background-color: variables.$texColor;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     
     &__infos {
         display: flex;
         gap: 40px;
+
         
         &__item {
             font-size: 14px;
@@ -36,7 +37,7 @@
 
     @media (min-width: 641px) and (max-width: 1024px) {
         &__infos {
-            gap: 16px
+            gap: 40px
         }
     }
 }
